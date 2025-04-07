@@ -30,7 +30,7 @@ int carregarCSV(const char *nomeArquivo, Produto produtos[], int *totalProdutos)
     fgets(linha, MAX_TAMANHO, arquivo); // Pular cabeçalho
 
     while (fgets(linha, MAX_TAMANHO, arquivo) && *totalProdutos < MAX_LINHAS) {
-        sscanf(linha, "[^,],%f,%d", 
+        sscanf(linha, "%[^,],%f,%d", 
                produtos[*totalProdutos].nome, 
                &produtos[*totalProdutos].preco, 
                &produtos[*totalProdutos].quantidade);
