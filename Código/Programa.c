@@ -105,6 +105,6 @@ int main() {
     scanf("%s", nomeSaida);
 
     salvarCSV(nomeSaida, produtos, totalProdutos);
-
+printf();
     return 0;
 }
