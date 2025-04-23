@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <sys/stat.h> 
 #include "produto.h"
 
 int lerProdutos(const char* nomeArquivo, Produto vetor[], int tamanhoMaximo) {
@@ -58,9 +59,20 @@ void ordenarProdutos(Produto vetor[], int n, int campo) {
 }
 
 void salvarProdutos(const char* nomeArquivo, Produto vetor[], int n) {
-    FILE* arquivo = fopen(nomeArquivo, "w");
+
+    const char* pasta = "Produtos_Ordenados";
+    if (mkdir(pasta, 0700) == -1) {
+        printf("Erro ao criar a pasta.\n");
+    } else {
+        printf("Pasta criada com sucesso.\n");
+    }
+
+    char caminhoArquivo[256];
+    snprintf(caminhoArquivo, sizeof(caminhoArquivo), "%s/%s", pasta, nomeArquivo);
+
+    FILE* arquivo = fopen(caminhoArquivo, "w");
     if (arquivo == NULL) {
-        printf("Erro ao criar o arquivo %s.\n", nomeArquivo);
+        printf("Erro ao criar o arquivo %s.\n", caminhoArquivo);
         return;
     }
 
@@ -69,4 +81,5 @@ void salvarProdutos(const char* nomeArquivo, Produto vetor[], int n) {
     }
 
     fclose(arquivo);
+    printf("Arquivo salvo em: %s\n", caminhoArquivo);
 }
