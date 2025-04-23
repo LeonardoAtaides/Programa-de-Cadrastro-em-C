@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "produto.h"
+#include "produto.c"
 
 #define MAX_PRODUTOS 100
 
