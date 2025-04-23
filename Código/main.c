@@ -1,10 +1,15 @@
 #include <stdio.h>
 #include "produto.h"
 #include "produto.c"
+#include <locale.h>
 
 #define MAX_PRODUTOS 100
 
 int main() {
+
+    //aqui o código terá como ler e escrever com acentos e ç etc.
+    setlocale(LC_ALL, "pt_BR.UTF-8");
+
     Produto produtos[MAX_PRODUTOS];
     char nomeArquivoEntrada[100], nomeArquivoSaida[100];
     int total, opcaoOrdenacao;
