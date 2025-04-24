@@ -1,8 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include <sys/stat.h> 
+#include <direct.h>
+#include <sys/stat.h>
 #include "produto.h"
+
 
 int lerProdutos(const char* nomeArquivo, Produto vetor[], int tamanhoMaximo) {
     FILE* arquivo = fopen(nomeArquivo, "r");
@@ -21,7 +23,7 @@ int lerProdutos(const char* nomeArquivo, Produto vetor[], int tamanhoMaximo) {
         if (token != NULL) strncpy(vetor[count].descricao, token, sizeof(vetor[count].descricao));
 
         token = strtok(NULL, ",");
-        if (token != NULL) vetor[count].preco = atof(token);
+        if (token != NULL) vetor[count].preco = (float) atof(token);  // cast explícito
 
         token = strtok(NULL, ",");
         if (token != NULL) vetor[count].quantidade = atoi(token);
@@ -39,11 +41,11 @@ void ordenarProdutos(Produto vetor[], int n, int campo) {
         for (int j = i + 1; j < n; j++) {
             int comparar = 0;
 
-            if (campo == 1) { // Descrição
+            if (campo == 1) {
                 comparar = strcmp(vetor[j].descricao, vetor[menor].descricao) < 0;
-            } else if (campo == 2) { // Preço
+            } else if (campo == 2) {
                 comparar = vetor[j].preco < vetor[menor].preco;
-            } else if (campo == 3) { // Quantidade
+            } else if (campo == 3) {
                 comparar = vetor[j].quantidade < vetor[menor].quantidade;
             }
 
@@ -59,10 +61,9 @@ void ordenarProdutos(Produto vetor[], int n, int campo) {
 }
 
 void salvarProdutos(const char* nomeArquivo, Produto vetor[], int n) {
-
     const char* pasta = "Produtos_Ordenados";
-    if (mkdir(pasta, 0700) == -1) {
-        printf("Erro ao criar a pasta.\n");
+    if (mkdir(pasta) == -1) {
+        printf("Erro ao criar a pasta ou ela já existe.\n");
     } else {
         printf("Pasta criada com sucesso.\n");
     }
