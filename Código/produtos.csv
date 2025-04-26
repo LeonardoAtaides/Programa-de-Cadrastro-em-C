@@ -1,50 +1,100 @@
-Caneta Azul,2.50,100
-Lápis Preto,1.00,200
-Caderno Universitário,15.00,30
-Borracha Branca,0.75,150
-Marca Texto Verde,3.80,90
-Lápis de Cor 12 cores,8.90,50
-Apontador Duplo,3.20,120
-Caderno Brochura,6.50,75
-Régua 30cm,2.10,110
-Estojo Escolar,12.00,40
-Papel Sulfite A4 (500 folhas),25.00,20
-Cola Branca 90g,4.30,60
-Tesoura Escolar,5.50,85
-Compasso Metálico,9.80,30
-Corretivo Líquido,3.75,55
-Marcador Permanente,4.10,70
-Pincel Atômico,3.90,65
-Bloco de Notas,2.40,100
-Pastas Plásticas,1.50,130
-Grampeador Pequeno,10.00,25
-Caixa de Clips (100 unid),1.90,95
-Bloco Adesivo,3.20,75
-Envelope Pardo A4,0.80,200
-Caneta Marca Texto Amarela,3.80,90
-Pasta Sanfonada,14.00,20
-Caneta Esferográfica Azul,1.20,300
-Cartucho de Tinta Preta,55.00,15
-Fichário Universitário,18.50,25
-Lápis Mecânico 0.5mm,6.70,45
-Bloco de Papel Quadriculado,4.50,60
-Caneta Recarregável Azul,6.90,40
-Esquadro Metálico 30cm,8.20,25
-Caderno de Caligrafia,9.90,35
-Porta Canetas Giratório,12.00,18
-Refil de Cola Quente,3.30,90
-Fita Dupla Face 10m,5.60,50
-Marcador Pastel Rosa,4.70,70
-Estojo de Couro Sintético,19.90,12
-Lápis com Estampas Divertidas,2.00,100
-Notebook Ultra Leve,2999.00,15
-Cafeteira Elétrica,199.90,25
-Mouse Gamer,129.90,40
-Fone de Ouvido com Fio,79.90,60
-Chaleira Elétrica,89.90,35
-Smartwatch Fitness,299.00,50
-Secador de Cabelo,159.90,30
-Câmera Digital,899.00,20
-Ventilador de Mesa,79.00,100
-Processador de Alimentos,189.90,45
-Livro de Receitas,29.90,80
+Refil de Cola Quente #1,3.53,102
+Cola Branca 90g #2,4.05,58
+Bloco de Papel Quadriculado #3,4.91,77
+Fichário Universitário #4,18.82,27
+Lápis com Estampas Divertidas #5,2.06,86
+Apontador Duplo #6,2.93,99
+Caderno Brochura #7,6.73,64
+Livro de Receitas #8,29.77,92
+Lápis com Estampas Divertidas #9,1.97,78
+Bloco de Notas #10,2.5,74
+Pastas Plásticas #11,1.61,144
+Bloco Adesivo #12,3.32,92
+Pincel Atômico #13,3.62,50
+Bloco Adesivo #14,2.98,58
+Processador de Alimentos #15,192.77,34
+Envelope Pardo A4 #16,0.77,217
+Tesoura Escolar #17,5.99,70
+Cola Branca 90g #18,4.33,60
+Bloco de Papel Quadriculado #19,4.62,44
+Fone de Ouvido com Fio #20,79.27,68
+Fita Dupla Face 10m #21,5.07,38
+Chaleira Elétrica #22,95.5,41
+Caneta Azul #23,2.7,77
+Caixa de Clips (100 unid) #24,1.85,110
+Cola Branca 90g #25,4.03,67
+Mouse Gamer #26,142.14,49
+Cartucho de Tinta Preta #27,59.84,11
+Cafeteira Elétrica #28,218.84,30
+Estojo de Couro Sintético #29,21.25,14
+Cafeteira Elétrica #30,204.28,22
+Fita Dupla Face 10m #31,5.71,55
+Bloco Adesivo #32,3.1,76
+Caneta Azul #33,2.73,92
+Lápis Preto #34,1.02,195
+Fone de Ouvido com Fio #35,85.16,62
+Porta Canetas Giratório #36,10.91,12
+Pasta Sanfonada #37,15.39,22
+Smartwatch Fitness #38,300.29,35
+Lápis com Estampas Divertidas #39,1.87,118
+Bloco de Notas #40,2.3,129
+Grampeador Pequeno #41,10.3,18
+Corretivo Líquido #42,3.9,49
+Caneta Esferográfica Azul #43,1.23,319
+Bloco Adesivo #44,2.98,97
+Esquadro Metálico 30cm #45,8.2,24
+Pincel Atômico #46,3.71,57
+Corretivo Líquido #47,3.68,43
+Borracha Branca #48,0.7,187
+Borracha Branca #49,0.81,117
+Caderno de Caligrafia #50,9.78,26
+Corretivo Líquido #51,3.44,51
+Caderno Brochura #52,5.88,86
+Bloco de Papel Quadriculado #53,4.54,53
+Cartucho de Tinta Preta #54,49.72,16
+Lápis Preto #55,0.97,188
+Tesoura Escolar #56,5.4,61
+Fichário Universitário #57,17.73,30
+Bloco de Notas #58,2.47,122
+Envelope Pardo A4 #59,0.82,196
+Grampeador Pequeno #60,10.42,24
+Papel Sulfite A4 (500 folhas) #61,25.12,24
+Livro de Receitas #62,28.52,59
+Pincel Atômico #63,4.28,68
+Câmera Digital #64,976.45,24
+Fita Dupla Face 10m #65,5.99,55
+Secador de Cabelo #66,167.97,24
+Estojo de Couro Sintético #67,19.29,11
+Chaleira Elétrica #68,91.58,27
+Caderno Brochura #69,6.51,54
+Bloco de Papel Quadriculado #70,4.36,47
+Cartucho de Tinta Preta #71,54.93,10
+Smartwatch Fitness #72,274.84,64
+Lápis Mecânico 0.5mm #73,6.2,34
+Lápis com Estampas Divertidas #74,2.01,71
+Envelope Pardo A4 #75,0.8,248
+Porta Canetas Giratório #76,12.04,15
+Porta Canetas Giratório #77,13.14,18
+Esquadro Metálico 30cm #78,8.35,21
+Refil de Cola Quente #79,3.11,72
+Pastas Plásticas #80,1.56,139
+Mouse Gamer #81,131.0,39
+Ventilador de Mesa #82,77.3,117
+Apontador Duplo #83,3.03,122
+Caderno Brochura #84,6.87,56
+Livro de Receitas #85,29.12,91
+Caneta Marca Texto Amarela #86,3.46,79
+Lápis com Estampas Divertidas #87,2.15,94
+Corretivo Líquido #88,3.74,51
+Bloco de Papel Quadriculado #89,4.5,75
+Fone de Ouvido com Fio #90,82.58,65
+Cafeteira Elétrica #91,212.01,25
+Apontador Duplo #92,3.13,128
+Lápis de Cor 12 cores #93,9.74,45
+Caderno Brochura #94,5.95,70
+Ventilador de Mesa #95,81.79,99
+Marcador Pastel Rosa #96,4.29,90
+Lápis de Cor 12 cores #97,8.92,35
+Caneta Marca Texto Amarela #98,3.79,91
+Tesoura Escolar #99,5.91,60
+Pasta Sanfonada #100,14.31,15
