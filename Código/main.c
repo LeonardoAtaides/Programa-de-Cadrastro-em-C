@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <locale.h>
 #include <stdlib.h> 
-
 #include "produto.h"
+#include "produto.c"
 
 #define MAX_PRODUTOS 100
 

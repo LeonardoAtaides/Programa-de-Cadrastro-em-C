@@ -63,9 +63,9 @@ void ordenarProdutos(Produto vetor[], int n, int campo) {
 void salvarProdutos(const char* nomeArquivo, Produto vetor[], int n) {
     const char* pasta = "Produtos_Ordenados";
     if (mkdir(pasta) == -1) {
-        printf("Erro ao criar a pasta ou ela já existe.\n");
+        printf("Pasta Identificada.\n");
     } else {
-        printf("Pasta criada com sucesso.\n");
+        printf("Pasta %s criada com sucesso.\n", pasta);
     }
 
     char caminhoArquivo[256];
