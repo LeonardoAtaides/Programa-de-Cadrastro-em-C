@@ -25,10 +25,9 @@ int main() {
         return 1;   
     }
 
-    // LOOP PARA SELECIONAR OPÇÕES VALIDAS
     do {
         if (!primeiraTentativa) {
-            printf("Opção inválida! Por favor, escolha (1/2/3)\n");
+            printf("Opção inválida! Por favor, escolha: [ 1 | 2 | 3 ]\n");
         }
         printf("\nEscolha o campo para ordenar:\n");
         printf("1 - Descrição\n");
